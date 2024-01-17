@@ -9,7 +9,7 @@ export default {
 
 <template>
   <header>
-    <h1 class="main-title">{{ title }} Ciao ragazzi</h1>
+    <h1 class="main-title">{{ title }}La mia prima app con Vite!</h1>
   </header>
 </template>
 

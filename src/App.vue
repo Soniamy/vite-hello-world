@@ -1,6 +1,6 @@
 <script>
 //Importazione del componente
-import AppHeader from './components/AppHeader.vue';
+import AppHeader from './components/AppTitle.vue';
 export default {
   data() {
     return { count: 0 };
@@ -21,14 +21,14 @@ export default {
       {{ count }}
     </p>
     <button @click="count++">Incrementa count</button>
-    <p class="subtitle">A primo impatto sembra molto figo !</p>
+    <p class="subtitle">A primo impatto sembra figo !</p>
   </div>
 </template>
 
 <style scoped>
 h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 3em;
   color: blueviolet;
 }
 p {
